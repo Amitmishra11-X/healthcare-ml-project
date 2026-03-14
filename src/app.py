@@ -92,8 +92,7 @@ st.markdown("""
 # ─── Load Models ────────────────────────────────────────────────
 @st.cache_resource
 def load_models():
-    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    models_dir = os.path.join(base, 'models')
+    models_dir = os.path.join(os.getcwd(), 'models')
     rf_model   = joblib.load(os.path.join(models_dir, 'random_forest_model.pkl'))
     xgb_model  = joblib.load(os.path.join(models_dir, 'xgboost_model.pkl'))
     scaler     = joblib.load(os.path.join(models_dir, 'scaler.pkl'))
