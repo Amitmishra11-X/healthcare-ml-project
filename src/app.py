@@ -396,7 +396,7 @@ def main():
         6. **Interactive Deployment** — Streamlit web app with real-time prediction
 
         ### 👨‍💻 Author
-        **Your Name**  
+        **Amit Mishra**  
         B.Tech in computer Science | L.D.A.H Rajkiya Engineering College, Mainpuri 
         GitHub: github.com/Amitmishra11-X
         """)
