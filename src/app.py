@@ -397,8 +397,8 @@ def main():
 
         ### 👨‍💻 Author
         **Your Name**  
-        B.Tech [Your Branch] | [Your College]  
-        GitHub: github.com/yourusername
+        B.Tech in computer Science | L.D.A.H Rajkiya Engineering College, Mainpuri 
+        GitHub: github.com/Amitmishra11-X
         """)
 
 
