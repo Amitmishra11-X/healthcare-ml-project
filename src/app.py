@@ -40,7 +40,7 @@ def load_models():
         with open(os.path.join(MODELS_DIR, 'feature_names.json')) as f:
             feat = json.load(f)
         return rf, xgb, sc, imp, feat, True
-     except Exception as e:
+    except Exception as e:
         st.error(f"Error loading models: {str(e)}")
         return None, None, None, None, None, False
 
