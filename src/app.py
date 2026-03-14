@@ -397,7 +397,7 @@ def main():
 
         ### 👨‍💻 Author
         **Amit Mishra**  
-        B.Tech in computer Science | L.D.A.H Rajkiya Engineering College, Mainpuri 
+        B.Tech in computer Science | L.D.A.H Rajkiya Engineering College, Mainpuri <br/>
         GitHub: github.com/Amitmishra11-X
         """)
 
