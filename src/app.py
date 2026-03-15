@@ -44,7 +44,8 @@ def load_models():
             feat = json.load(f)
         return rf, xgb, sc, imp, feat, True
     except Exception as e:
-        return None, None, None, None, None, False
+         st.write("ERROR:", str(e))
+         return None, None, None, None, None, False
 
 # ── Load Data ─────────────────────────────────────────────────────
 @st.cache_data
